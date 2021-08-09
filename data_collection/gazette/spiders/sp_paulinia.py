@@ -9,7 +9,7 @@ from gazette.spiders.base import BaseGazetteSpider
 class SpPauliniaSpider(BaseGazetteSpider):
     name = "sp_paulinia"
     TERRITORY_ID = "2905206"
-    allowed_domains = ["www.paulinia.sp.gov.br/semanarios"]
+    allowed_domains = ["www.paulinia.sp.gov.br/"]
     start_urls = ["http://www.paulinia.sp.gov.br/semanarios/"]
     start_date = datetime.date(2020, 4, 3)
 
